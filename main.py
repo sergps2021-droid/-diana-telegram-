@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 # Токен Telegram от BotFather
 TELEGRAM_TOKEN = "СЮДА_ВСТАВЬ_ТВОЙ_TELEGRAM_TOKEN"
 # Токен Hugging Face (твой ключ)
-HF_TOKEN = "import os
+
 HF_TOKEN = os.environ["HF_TOKEN"]
 "
 
